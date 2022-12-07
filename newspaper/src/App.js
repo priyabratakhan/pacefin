@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import GetNews from './components/GetNews';
 
 function App() {
   return (
     <div className="App">
-      <h1>pacefin</h1>
+      <GetNews/>
     </div>
   );
 }
